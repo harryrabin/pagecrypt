@@ -4,6 +4,9 @@
 
 Inspired by [MaxLaumeister/PageCrypt](https://github.com/MaxLaumeister/PageCrypt), but rewritten to use native `Web Crypto API` and greatly improve UX + security. Thanks for sharing an excellent starting point to create this tool!
 
+This version (`@harryrabin/pagecrypt`) removes the "Made with Pagecrypt" stamp on the password page, and prevents the password from being echoed into the shell if you're using a custom password, such as one stored in an environment variable.
+These seemed like security oversights in an otherwise very secure utility – I personally don't want potential attackers to know exactly which encryption tool I've used, and build logs (potentially containing the password) are not always as secure as other metadata on deployment services.
+
 ## Get started
 
 **NOTE: Make sure you are using Node.js v16 or newer.**
