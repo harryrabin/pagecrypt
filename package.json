@@ -1,6 +1,6 @@
 {
     "name": "@harryrabin/pagecrypt",
-    "version": "6.0.1",
+    "version": "6.0.3",
     "description": "An OpSec-optimized fork of Pagecrypt",
     "main": "src/index.ts",
     "type": "module",
