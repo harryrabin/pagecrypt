@@ -1,6 +1,6 @@
 {
     "name": "@harryrabin/pagecrypt",
-    "version": "6.0.4",
+    "version": "6.0.5",
     "description": "An OpSec-optimized fork of Pagecrypt",
     "main": "src/index.ts",
     "type": "module",
@@ -53,7 +53,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Greenheart/pagecrypt.git"
+        "url": "git+https://github.com/harryrabin/pagecrypt.git"
     },
     "bugs": {
         "url": "https://github.com/Greenheart/pagecrypt/issues"
